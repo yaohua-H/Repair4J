@@ -1,0 +1,35 @@
+Testsuite: com.zju.huangyh.repair.localization.TestLRU
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.044 sec
+
+Testcase: testUse(com.zju.huangyh.repair.localization.TestLRU):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at com.zju.huangyh.repair.practice.lru.LRUList.access(LRUList.java:45)
+	at com.zju.huangyh.repair.practice.lru.LRUCache.get(LRUCache.java:25)
+	at com.zju.huangyh.repair.localization.TestLRU.testUse(TestLRU.java:45)
+
+
+Testcase: testOverwriteUse(com.zju.huangyh.repair.localization.TestLRU):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at com.zju.huangyh.repair.practice.lru.LRUList.access(LRUList.java:45)
+	at com.zju.huangyh.repair.practice.lru.LRUCache.set(LRUCache.java:40)
+	at com.zju.huangyh.repair.localization.TestLRU.testOverwriteUse(TestLRU.java:67)
+
+
+Testcase: testRemove(com.zju.huangyh.repair.localization.TestLRU):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at com.zju.huangyh.repair.practice.lru.LRUList.access(LRUList.java:45)
+	at com.zju.huangyh.repair.practice.lru.LRUCache.get(LRUCache.java:25)
+	at com.zju.huangyh.repair.localization.TestLRU.testRemove(TestLRU.java:36)
+
+
+Testcase: testSetGet(com.zju.huangyh.repair.localization.TestLRU):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at com.zju.huangyh.repair.practice.lru.LRUList.access(LRUList.java:45)
+	at com.zju.huangyh.repair.practice.lru.LRUCache.get(LRUCache.java:25)
+	at com.zju.huangyh.repair.localization.TestLRU.testSetGet(TestLRU.java:25)
+
+

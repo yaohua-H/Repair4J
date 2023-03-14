@@ -1,0 +1,16 @@
+Testsuite: com.zju.huangyh.repair.localization.TestLRU
+Tests run: 6, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.04 sec
+
+Testcase: testEmpty(com.zju.huangyh.repair.localization.TestLRU):	Caused an ERROR
+null
+java.lang.NullPointerException
+	at com.zju.huangyh.repair.practice.lru.LRUCache.get(LRUCache.java:28)
+	at com.zju.huangyh.repair.localization.TestLRU.testEmpty(TestLRU.java:14)
+
+
+Testcase: testRemove(com.zju.huangyh.repair.localization.TestLRU):	FAILED
+expected:<-1> but was:<1>
+junit.framework.AssertionFailedError: expected:<-1> but was:<1>
+	at com.zju.huangyh.repair.localization.TestLRU.testRemove(TestLRU.java:36)
+
+

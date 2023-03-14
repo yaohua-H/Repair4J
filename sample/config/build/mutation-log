@@ -1,0 +1,1158 @@
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1176: currentLoad--;
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1176: currentLoad--;
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1176: currentLoad--;
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 11, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@375: this.currentLoad=0;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 12, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 13, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@908: if (n != null) {
+  n.value=value;
+  list.access(n);
+}
+ else {
+  n=new Node(k,value);
+  currentLoad--;
+  if (currentLoad == capacity) {
+    Node lru=list.remove();
+    hash.remove(lru.key);
+  }
+ else {
+    currentLoad++;
+  }
+  hash.put(k,n);
+  list.insert(n);
+}
+
+============================
+Candidate 14, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 15, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@795: Node n;
+
+============================
+Candidate 16, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 17, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@358: mru.previous=node;
+
+============================
+Candidate 18, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 19, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 20, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = null: 
+============================
+Candidate 21, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+============================
+Candidate 22, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@309: list=new LRUList();
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+============================
+Candidate 23, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 24, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+============================
+Candidate 25, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+============================
+Candidate 26, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@281: this.mru=node;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@1009: node.next=this.mru;
+
+============================
+Candidate 27, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 28, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@309: list=new LRUList();
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 29, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@337: node.next=mru;
+
+============================
+Candidate 30, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+============================
+Candidate 1, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 2, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 3, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = null: 
+============================
+Candidate 4, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 5, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@813: if (node != lru) {
+  node.previous.next=node.next;
+  node.next.previous=node.previous;
+}
+ else {
+  node.previous.next=null;
+  this.lru=node.previous;
+}
+
+
+Seed = null: 
+============================
+Candidate 6, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+
+Seed = null: 
+============================
+Candidate 7, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = null: 
+============================
+Candidate 8, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = null: 
+============================
+Candidate 9, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1340: hash.remove(lru.key);
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 10, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+============================
+Candidate 11, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@375: this.currentLoad=0;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 12, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 13, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@908: if (n != null) {
+  n.value=value;
+  list.access(n);
+}
+ else {
+  n=new Node(k,value);
+  currentLoad--;
+  if (currentLoad == capacity) {
+    Node lru=list.remove();
+    hash.remove(lru.key);
+  }
+ else {
+    currentLoad++;
+  }
+  hash.put(k,n);
+  list.insert(n);
+}
+
+============================
+Candidate 14, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 15, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@340: this.capacity=capacity;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@795: Node n;
+
+============================
+Candidate 16, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 17, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@358: mru.previous=node;
+
+============================
+Candidate 18, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+============================
+Candidate 19, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 20, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = null: 
+============================
+Candidate 21, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@302: this.lru=node;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+============================
+Candidate 22, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@309: list=new LRUList();
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+============================
+Candidate 23, Generation1
+Deletion 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = null: 
+============================
+Candidate 24, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@559: return -1;
+
+============================
+Candidate 25, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@253: hash=new Hashtable<Integer,Node>(capacity);
+
+============================
+Candidate 26, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@281: this.mru=node;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@1009: node.next=this.mru;
+
+============================
+Candidate 27, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1558: list.insert(n);
+
+============================
+Candidate 28, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@309: list=new LRUList();
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUCache.java@1254: if (currentLoad == capacity) {
+  Node lru=list.remove();
+  hash.remove(lru.key);
+}
+ else {
+  currentLoad++;
+}
+
+============================
+Candidate 29, Generation1
+Replacement 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@337: node.next=mru;
+
+============================
+Candidate 30, Generation1
+Addition 
+Faulty = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@941: node.previous.next=null;
+
+
+Seed = /mnt/d/IntelliJIDEA/project/workspace8/Repair4J/sample/src/com/zju/huangyh/repair/practice/lru/LRUList.java@973: this.lru=node.previous;
+
+============================

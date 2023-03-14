@@ -1,0 +1,9 @@
+Testsuite: com.zju.huangyh.repair.localization.TestLRU
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.155 sec
+
+Testcase: testRemove(com.zju.huangyh.repair.localization.TestLRU):	FAILED
+expected:<-1> but was:<1>
+junit.framework.AssertionFailedError: expected:<-1> but was:<1>
+	at com.zju.huangyh.repair.localization.TestLRU.testRemove(TestLRU.java:36)
+
+
